@@ -4,7 +4,7 @@ As an IT Support Administrator Specialist, you are responsible for setting up ne
 
 Your application should do the following:
 * Generate an email with the following syntax: firstname.lastname@department.company.com.
-* Determine the department (e.g., development, human resources, sales, IT, customer service, accounting); if none, leave blank.
+* Determine the department (e.g., DevOps, Human Resources, Sales, IT, Customer Service, Accounting); if none, leave blank.
 * Generate a random string for the password.
 * Have a method to display the name, email, and mailbox capacity.
 
