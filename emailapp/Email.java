@@ -1,6 +1,6 @@
 package emailapp;
 
-import java.util.Map;
+// import java.util.Map;
 import java.util.Scanner;
 
 public class Email {
@@ -19,20 +19,16 @@ public class Email {
     public Email(String firstName, String lastName) {
         this.firstName = firstName;
         this.lastName = lastName;
-        //System.out.println("Sample Email Created: " + this.firstName + " " + this.lastName);
-
+       
         // calling a method asking for the department and return the department
         this.department = setDepartment();
-       // System.out.println("Department: " + this.department);
-
+       
         // calling a method that return a random password
         this.userPassword = randomPassword(defaultPasswordLength);
         System.out.println("Your password is: " + this.userPassword);
 
         // Combine element to generate email
         userEmail = firstName.toLowerCase() + "." + lastName.toLowerCase() + "@" + department + "." + companyName;
-        //System.out.println("Your email is: " +  this.userEmail);
-
     }
 
     // Ask for the department
